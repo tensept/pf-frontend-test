@@ -12,4 +12,3 @@ services:
       - NGINX_PORT=${NGINX_PORT}
 networks:
   preflight_pf-net: # Check by using `docker network ls` command
-    external: true
